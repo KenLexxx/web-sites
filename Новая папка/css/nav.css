@@ -1,0 +1,71 @@
+.nav
+{
+    background-color: firebrick;
+    height: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hight_nav
+{
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    padding-top: 1%;
+}
+
+.nav_logo
+{
+    object-fit: cover;
+    padding: 0 2% 2% 2%;
+}
+
+.logo
+{
+    width: 10%;
+    height: 90%;
+}
+
+.btn_reg
+{
+    background-color: gold;
+    height: min-content;
+    width: min-content;
+    padding: 4%;
+    border-radius: 20px;
+}
+
+.btn_log
+{
+    background-color: gold;
+    height: min-content;
+    width: min-content;
+    padding: 4%;
+    border-radius: 20px;
+    margin: 0 0 0 50%;
+}
+
+.middle_nav
+{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.pc_menu
+{
+    padding: 2%;
+}
+
+.menu
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    height: 100%;
+    background-color: gold;
+}
+
+.menu > li
+{
+    border: 2px solid;
+}
+

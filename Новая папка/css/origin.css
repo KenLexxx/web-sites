@@ -1,0 +1,24 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bg
+{
+	width: 100%;
+	background-position: center;
+	position: fixed;
+	background-size: cover;
+    z-index: -100;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
